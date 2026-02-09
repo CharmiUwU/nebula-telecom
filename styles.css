@@ -552,3 +552,12 @@ body{font-family:var(--f);color:var(--g900);background:#fff;-webkit-font-smoothi
 @media(max-width:480px){
     .contacto-hero-trust{flex-direction:column;align-items:center;gap:10px}
 }
+
+/* Contact page hero (simple centered) */
+.ct-hero{padding:64px 0 48px;background:#fff}
+.ct-hero .section-header{margin-bottom:0}
+.ct-hero h1{font-size:clamp(2rem,4vw,2.8rem);font-weight:900;color:var(--g900);letter-spacing:-.03em;margin-bottom:12px;line-height:1.15}
+.ct-hero p{max-width:460px}
+@media(max-width:768px){
+    .ct-hero{padding:48px 0 36px}
+}
