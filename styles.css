@@ -561,3 +561,34 @@ body{font-family:var(--f);color:var(--g900);background:#fff;-webkit-font-smoothi
 @media(max-width:768px){
     .ct-hero{padding:48px 0 36px}
 }
+
+/* ── TESTIMONIALS V2 ── */
+.tm-v2{background:var(--blue-ll);overflow:hidden}
+
+/* Trust banner */
+.tm-trust-banner{display:flex;align-items:center;justify-content:center;gap:20px;background:#fff;border:1px solid var(--g200);border-radius:14px;padding:20px 32px;max-width:540px;margin:0 auto 44px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.tm-trust-score{display:flex;align-items:baseline;gap:2px}
+.tm-trust-num{font-size:2rem;font-weight:900;color:var(--g900);letter-spacing:-.03em;line-height:1}
+.tm-trust-of{font-size:1rem;font-weight:600;color:var(--g400)}
+.tm-trust-stars{font-size:1.2rem;color:var(--amber);letter-spacing:3px}
+.tm-trust-meta{display:flex;flex-direction:column;gap:2px}
+.tm-trust-count{font-size:.82rem;font-weight:600;color:var(--g700)}
+.tm-trust-src{font-size:.72rem;color:var(--g400);font-weight:500}
+
+/* Cards */
+.tm-reviews{gap:20px}
+.tm-card{position:relative;background:#fff;border:1px solid var(--g200);border-left:3px solid var(--blue);border-radius:14px;padding:32px 28px 24px;overflow:hidden;animation:tmFadeUp .6s ease both}
+.tm-quote-mark{position:absolute;top:10px;right:18px;font-size:4.5rem;line-height:1;font-weight:900;color:var(--blue);opacity:.06;pointer-events:none;font-family:Georgia,serif}
+.tm-card blockquote{font-size:.92rem;color:var(--g600);line-height:1.85;margin-bottom:20px;position:relative;z-index:1}
+.tm-card-footer{display:flex;flex-direction:column;gap:10px}
+.tm-card .review-stars{font-size:.78rem;letter-spacing:2px}
+.tm-avatar{width:40px;height:40px;font-size:.75rem;background:var(--blue);color:#fff}
+
+@keyframes tmFadeUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+
+@media(max-width:768px){
+    .tm-trust-banner{flex-direction:column;gap:10px;padding:18px 20px;text-align:center}
+    .tm-trust-meta{align-items:center}
+    .tm-reviews{grid-template-columns:1fr;max-width:480px}
+    .tm-card{padding:26px 22px 20px}
+}
