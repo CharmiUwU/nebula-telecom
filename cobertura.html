@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobertura — Nebula Telecom</title>
+    <meta name="description" content="Comprueba la cobertura de fibra óptica y 5G de Nebula Telecom en tu zona. Disponible en las 50 provincias de España.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css?v=13">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+    <div class="container top-bar-inner">
+        <div class="top-bar-links">
+            <a href="index.html#faq"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Ayuda</a>
+            <a href="contacto.html"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg> Atenci&oacute;n al cliente</a>
+        </div>
+        <div class="top-bar-links">
+            <a href="#" class="top-bar-mi-nebula"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Mi Nebula</a>
+            <a href="tel:+34900123456" class="top-bar-phone"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg> 900 123 456</a>
+        </div>
+    </div>
+</div>
+
+<!-- NAV -->
+<nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+        <a href="index.html" class="logo">
+            <svg width="30" height="30" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="16" stroke="#002BFF" stroke-width="2.5"/><circle cx="18" cy="18" r="8" fill="#002BFF"/><circle cx="18" cy="18" r="4" fill="white"/><ellipse cx="18" cy="18" rx="16" ry="6" stroke="#002BFF" stroke-width="1.5"/></svg>
+            <span class="logo-text">nebula</span>
+        </a>
+        <div class="nav-links">
+            <a href="index.html#planes">Fibra + M&oacute;vil</a>
+            <a href="index.html#planes">Fibra</a>
+            <a href="index.html#planes">M&oacute;vil</a>
+            <a href="cobertura.html" class="nav-link-active">Cobertura</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="nav-right">
+            <a href="index.html#planes" class="btn btn-primary btn-sm">Lo quiero</a>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Men&uacute;"><span></span><span></span><span></span></button>
+    </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-inner">
+        <a href="index.html#planes" class="mobile-link">Fibra + M&oacute;vil</a>
+        <a href="index.html#planes" class="mobile-link">Fibra</a>
+        <a href="index.html#planes" class="mobile-link">M&oacute;vil</a>
+        <a href="cobertura.html" class="mobile-link">Cobertura</a>
+        <a href="contacto.html" class="mobile-link">Contacto</a>
+        <div class="mobile-cta">
+            <a href="index.html#planes" class="btn btn-primary btn-full">Lo quiero</a>
+            <a href="tel:+34900123456" class="btn btn-outline-dark btn-full">Llamar: 900 123 456</a>
+        </div>
+    </div>
+</div>
+
+<!-- ==================== HERO ==================== -->
+<section class="cob-hero">
+    <div class="cob-hero-bg">
+        <div class="cob-hero-orb cob-hero-orb--1"></div>
+        <div class="cob-hero-orb cob-hero-orb--2"></div>
+    </div>
+    <div class="container">
+        <div class="cob-hero-grid">
+            <div class="cob-hero-text">
+                <div class="cob-hero-eyebrow">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Mapa de cobertura
+                </div>
+                <h1>Comprueba si<br><span>llegamos a tu zona</span></h1>
+                <p>Fibra &oacute;ptica sim&eacute;trica hasta 10 Gbps y red 5G en las 50 provincias de Espa&ntilde;a. Introduce tu direcci&oacute;n y compru&eacute;balo al instante.</p>
+            </div>
+            <div class="cob-hero-visual">
+                <div class="cob-hero-card cob-hero-card--fiber">
+                    <div class="cob-hero-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                    </div>
+                    <div class="cob-hero-card-label">Fibra &oacute;ptica</div>
+                    <div class="cob-hero-card-value">98% cobertura</div>
+                </div>
+                <div class="cob-hero-connector">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+                </div>
+                <div class="cob-hero-card cob-hero-card--mobile">
+                    <div class="cob-hero-card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0114.08 0"/><path d="M1.42 9a16 16 0 0121.16 0"/><path d="M8.53 16.11a6 6 0 016.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                    </div>
+                    <div class="cob-hero-card-label">Red 5G</div>
+                    <div class="cob-hero-card-value">95% cobertura</div>
+                </div>
+                <div class="cob-hero-badge">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    50 provincias
+                </div>
+            </div>
+        </div>
+        <div class="cob-hero-trust">
+            <div class="cob-hero-trust-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                Comprobaci&oacute;n instant&aacute;nea
+            </div>
+            <div class="cob-hero-trust-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                Instalaci&oacute;n 24h
+            </div>
+            <div class="cob-hero-trust-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                Sin permanencia
+            </div>
+            <div class="cob-hero-trust-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                Hasta 10 Gbps
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== COVERAGE CHECKER ==================== -->
+<section class="section cob-checker-section">
+    <div class="container">
+        <div class="section-header centered">
+            <h2>Consulta tu cobertura</h2>
+            <p>Introduce tu c&oacute;digo postal o nombre de ciudad para verificar disponibilidad.</p>
+        </div>
+
+        <!-- Search box -->
+        <div class="cob-search-wrap">
+            <div class="cob-search-box">
+                <div class="cob-search-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+                <input type="text" id="cobInput" placeholder="C&oacute;digo postal o ciudad (ej. 28001, Madrid...)" class="cob-search-input">
+                <button class="btn btn-primary cob-search-btn" id="cobBtn">Comprobar cobertura</button>
+            </div>
+        </div>
+
+        <!-- Result -->
+        <div class="cob-result hidden" id="cobResult">
+            <div class="cob-result-inner">
+                <div class="cob-result-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                </div>
+                <div class="cob-result-text">
+                    <strong id="cobResultTitle">Cobertura disponible</strong>
+                    <span id="cobResultDesc">Fibra &oacute;ptica y 5G disponibles en tu zona.</span>
+                </div>
+                <a href="contacto.html" class="btn btn-primary btn-sm">Contratar ahora</a>
+            </div>
+            <div class="cob-result-techs" id="cobResultTechs">
+                <div class="cob-result-tech">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/></svg>
+                    <div>
+                        <strong>Fibra &oacute;ptica</strong>
+                        <span>Hasta 10 Gbps sim&eacute;tricos</span>
+                    </div>
+                    <div class="cob-result-tech-status cob-result-tech-status--ok">Disponible</div>
+                </div>
+                <div class="cob-result-tech">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0114.08 0"/><path d="M1.42 9a16 16 0 0121.16 0"/><path d="M8.53 16.11a6 6 0 016.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                    <div>
+                        <strong>Red 5G</strong>
+                        <span>Velocidades hasta 2 Gbps</span>
+                    </div>
+                    <div class="cob-result-tech-status cob-result-tech-status--ok">Disponible</div>
+                </div>
+                <div class="cob-result-tech">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                    <div>
+                        <strong>4G/LTE</strong>
+                        <span>Cobertura nacional completa</span>
+                    </div>
+                    <div class="cob-result-tech-status cob-result-tech-status--ok">Disponible</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technology cards -->
+        <div class="cob-tech-grid">
+            <div class="cob-tech-card">
+                <div class="cob-tech-card-header">
+                    <div class="cob-tech-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                    </div>
+                    <div class="cob-tech-card-badge">98%</div>
+                </div>
+                <h3>Fibra &oacute;ptica</h3>
+                <p>Velocidad sim&eacute;trica real de subida y bajada. Desde 500 Mbps hasta 10 Gbps.</p>
+                <ul class="cob-tech-list">
+                    <li>Router WiFi 6/7 incluido</li>
+                    <li>Instalaci&oacute;n gratuita</li>
+                    <li>Sin l&iacute;mite de datos</li>
+                </ul>
+            </div>
+            <div class="cob-tech-card">
+                <div class="cob-tech-card-header">
+                    <div class="cob-tech-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12.55a11 11 0 0114.08 0"/><path d="M1.42 9a16 16 0 0121.16 0"/><path d="M8.53 16.11a6 6 0 016.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                    </div>
+                    <div class="cob-tech-card-badge">95%</div>
+                </div>
+                <h3>Red 5G</h3>
+                <p>Velocidades m&oacute;viles hasta 2 Gbps con la red 5G m&aacute;s avanzada de Espa&ntilde;a.</p>
+                <ul class="cob-tech-list">
+                    <li>Latencia ultrabaja</li>
+                    <li>Roaming UE incluido</li>
+                    <li>Compatible todos los terminales 5G</li>
+                </ul>
+            </div>
+            <div class="cob-tech-card">
+                <div class="cob-tech-card-header">
+                    <div class="cob-tech-card-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                    </div>
+                    <div class="cob-tech-card-badge">99.9%</div>
+                </div>
+                <h3>4G/LTE</h3>
+                <p>Cobertura nacional completa con velocidades hasta 300 Mbps en todo el territorio.</p>
+                <ul class="cob-tech-list">
+                    <li>Cobertura en zonas rurales</li>
+                    <li>VoLTE llamadas HD</li>
+                    <li>Fallback autom&aacute;tico</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== STATS ==================== -->
+<div class="stats-strip">
+    <div class="container stats-strip-inner">
+        <div class="stat-item"><span class="stat-num">17</span><span class="stat-label">Comunidades</span></div>
+        <div class="stat-item"><span class="stat-num">50</span><span class="stat-label">Provincias</span></div>
+        <div class="stat-item"><span class="stat-num">8.200+</span><span class="stat-label">Municipios</span></div>
+        <div class="stat-item"><span class="stat-num">45M+</span><span class="stat-label">Personas cubiertas</span></div>
+    </div>
+</div>
+
+<!-- ==================== CITIES ==================== -->
+<section class="section cob-cities-section">
+    <div class="container">
+        <div class="section-header centered">
+            <h2>Principales ciudades con cobertura</h2>
+            <p>Fibra &oacute;ptica y 5G disponibles en las principales &aacute;reas metropolitanas.</p>
+        </div>
+        <div class="cob-regions-grid">
+            <div class="cob-region">
+                <h3>Centro</h3>
+                <ul>
+                    <li>Madrid</li>
+                    <li>Toledo</li>
+                    <li>Ciudad Real</li>
+                    <li>Guadalajara</li>
+                </ul>
+            </div>
+            <div class="cob-region">
+                <h3>Noreste</h3>
+                <ul>
+                    <li>Barcelona</li>
+                    <li>Zaragoza</li>
+                    <li>Tarragona</li>
+                    <li>Girona</li>
+                </ul>
+            </div>
+            <div class="cob-region">
+                <h3>Este</h3>
+                <ul>
+                    <li>Valencia</li>
+                    <li>Alicante</li>
+                    <li>Murcia</li>
+                    <li>Palma de Mallorca</li>
+                </ul>
+            </div>
+            <div class="cob-region">
+                <h3>Sur</h3>
+                <ul>
+                    <li>Sevilla</li>
+                    <li>M&aacute;laga</li>
+                    <li>Granada</li>
+                    <li>C&aacute;diz</li>
+                </ul>
+            </div>
+            <div class="cob-region">
+                <h3>Norte</h3>
+                <ul>
+                    <li>Bilbao</li>
+                    <li>San Sebasti&aacute;n</li>
+                    <li>Santander</li>
+                    <li>Pamplona</li>
+                </ul>
+            </div>
+            <div class="cob-region">
+                <h3>Noroeste</h3>
+                <ul>
+                    <li>A Coru&ntilde;a</li>
+                    <li>Vigo</li>
+                    <li>Oviedo</li>
+                    <li>Gij&oacute;n</li>
+                </ul>
+            </div>
+        </div>
+        <div class="cob-cities-all">
+            <span>Madrid</span><span>Barcelona</span><span>Valencia</span><span>Sevilla</span><span>Bilbao</span><span>M&aacute;laga</span><span>Zaragoza</span><span>Palma</span><span>Las Palmas</span><span>A Coru&ntilde;a</span><span>Murcia</span><span>Alicante</span><span>Valladolid</span><span>Vigo</span><span>Gij&oacute;n</span><span>Granada</span><span>Oviedo</span><span>Pamplona</span><span>Santander</span><span>San Sebasti&aacute;n</span><span>Salamanca</span><span>Burgos</span><span>Albacete</span><span>Logro&ntilde;o</span><span>Badajoz</span><span>Huelva</span><span>Tarragona</span><span>Lleida</span><span>Ja&eacute;n</span><span>C&aacute;diz</span><span>Girona</span><span>C&oacute;rdoba</span><span>Toledo</span><span>Castell&oacute;n</span><span>Le&oacute;n</span><span>Almería</span>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== FAQ ==================== -->
+<section class="section faq" id="faq-cobertura">
+    <div class="container">
+        <div class="section-header centered">
+            <h2>Preguntas sobre cobertura</h2>
+        </div>
+        <div class="faq-list">
+            <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>&iquest;C&oacute;mo puedo comprobar si tengo cobertura?</span><svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>Introduce tu c&oacute;digo postal o el nombre de tu ciudad en el buscador de esta p&aacute;gina. El resultado es instant&aacute;neo. Tambi&eacute;n puedes llamarnos al 900 123 456 y te lo confirmamos por tel&eacute;fono.</p></div></div>
+            <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>&iquest;Qu&eacute; velocidad de fibra tendr&eacute; en mi zona?</span><svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>En la gran mayor&iacute;a de zonas con cobertura puedes contratar hasta 10 Gbps sim&eacute;tricos. La velocidad m&iacute;nima disponible es de 500 Mbps. Un t&eacute;cnico verificar&aacute; la capacidad exacta durante la instalaci&oacute;n.</p></div></div>
+            <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>&iquest;Tienen cobertura en zonas rurales?</span><svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>Nuestra red de fibra cubre el 98% del territorio, incluyendo muchas zonas rurales. Para la red m&oacute;vil, la cobertura 4G/LTE alcanza el 99.9% del territorio nacional, y la red 5G cubre el 95%.</p></div></div>
+            <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>&iquest;Cu&aacute;nto tarda la instalaci&oacute;n si tengo cobertura?</span><svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>Una vez confirmada la cobertura y contratado el servicio, un t&eacute;cnico certificado realizar&aacute; la instalaci&oacute;n en un m&aacute;ximo de 24 horas. T&uacute; eliges la franja horaria que prefieras.</p></div></div>
+            <div class="faq-item"><button class="faq-q" aria-expanded="false"><span>&iquest;Qu&eacute; pasa si no hay cobertura en mi zona?</span><svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></button><div class="faq-a"><p>Si a&uacute;n no llegamos a tu zona, puedes dejarnos tus datos y te avisaremos en cuanto est&eacute; disponible. Estamos ampliando red constantemente y priorizamos las solicitudes recibidas.</p></div></div>
+        </div>
+    </div>
+</section>
+
+<!-- ==================== CTA ==================== -->
+<section class="section cta-band">
+    <div class="container cta-inner">
+        <h2>&iquest;Ya tienes cobertura? Activa tu l&iacute;nea hoy</h2>
+        <p>Instalaci&oacute;n en 24h, sin permanencia. &Uacute;nete a 500.000 clientes satisfechos.</p>
+        <div class="cta-btns"><a href="contacto.html" class="btn btn-white btn-lg">Contratar ahora</a><a href="tel:+34900123456" class="btn btn-ghost btn-lg">900 123 456</a></div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-cta">
+            <div class="footer-cta-text">
+                <h3>&iquest;Necesitas ayuda para elegir?</h3>
+                <p>Ll&aacute;manos gratis o escr&iacute;benos. Te asesoramos sin compromiso.</p>
+            </div>
+            <div class="footer-cta-actions">
+                <a href="tel:+34900123456" class="btn btn-ghost btn-sm">900 123 456</a>
+                <a href="contacto.html" class="btn btn-white btn-sm">Contactar</a>
+            </div>
+        </div>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a href="index.html" class="logo"><svg width="28" height="28" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="16" stroke="#fff" stroke-width="2.5"/><circle cx="18" cy="18" r="8" fill="#fff"/><circle cx="18" cy="18" r="4" fill="#212529"/><ellipse cx="18" cy="18" rx="16" ry="6" stroke="#fff" stroke-width="1.5"/></svg><span class="logo-text">nebula</span></a>
+                <p>Conectando Espa&ntilde;a con fibra y m&oacute;vil de nueva generaci&oacute;n.</p>
+                <div class="footer-contact-info">
+                    <a href="tel:+34900123456"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg> 900 123 456</a>
+                    <a href="mailto:hola@nebulatelecom.es"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> hola@nebulatelecom.es</a>
+                </div>
+                <div class="socials">
+                    <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+                    <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+                    <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                    <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                    <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+                </div>
+            </div>
+            <div class="footer-col"><h4>Tarifas</h4><a href="combina.html">Fibra + M&oacute;vil</a><a href="index.html#planes">Solo Fibra</a><a href="index.html#planes">Solo M&oacute;vil</a><a href="contacto.html">Empresas</a></div>
+            <div class="footer-col"><h4>Soy cliente</h4><a href="#">Mi Nebula</a><a href="#">Facturas</a><a href="#">Cambiar tarifa</a><a href="#">Portabilidad</a></div>
+            <div class="footer-col"><h4>Ayuda</h4><a href="#">Centro de Ayuda</a><a href="cobertura.html">Cobertura</a><a href="#">Test de Velocidad</a><a href="#">Reportar Aver&iacute;a</a></div>
+            <div class="footer-col"><h4>Sobre nosotros</h4><a href="#">Empresa</a><a href="#">Empleo</a><a href="#">Prensa</a><a href="#">Blog</a></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 Nebula Telecom S.L. &mdash; CIF: B-12345678</p><div class="footer-legal"><a href="#">Aviso Legal</a><a href="#">Privacidad</a><a href="#">Cookies</a></div></div>
+    </div>
+</footer>
+
+<script src="script.js?v=7"></script>
+</body>
+</html>

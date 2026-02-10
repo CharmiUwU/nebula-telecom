@@ -238,3 +238,20 @@
     addLineBtn.addEventListener('click',function(){addLine(0)});
 
 })();
+
+// Cobertura page checker
+(function(){
+    const input=document.getElementById('cobInput'),btn=document.getElementById('cobBtn'),result=document.getElementById('cobResult');
+    if(!input||!btn||!result)return;
+    function check(){
+        const v=input.value.trim();
+        if(!v)return;
+        result.classList.remove('hidden');
+        const title=document.getElementById('cobResultTitle'),desc=document.getElementById('cobResultDesc');
+        if(title)title.textContent='Cobertura disponible en '+v;
+        if(desc)desc.textContent='Fibra óptica hasta 10 Gbps y red 5G disponibles en tu zona.';
+        result.scrollIntoView({behavior:'smooth',block:'nearest'});
+    }
+    btn.addEventListener('click',check);
+    input.addEventListener('keydown',e=>{if(e.key==='Enter')check()});
+})();
